@@ -1,0 +1,20 @@
+@import "typography";
+
+:root {
+  --primary: #4661e1;
+  --background: #fafafa;
+  --inputborder: #e0e0e0;
+  --social: #f3f3f3;
+  --success: #1abc9c;
+  --secondary: #ff8392;
+  --black: #1d1d1d;
+  --white: #ffffff;
+}
+
+body {
+  font-family: Helvetica, -apple-system, sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
