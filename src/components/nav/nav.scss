@@ -1,19 +1,25 @@
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 59px;
+  padding-top: 59px;
 
   button {
     padding: 0;
     margin: 0 20px;
     border: none;
+
+    &:last-child {
+      margin-right: 0;
+    }
   }
 
   .content {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 
     ul {
+      list-style: none;
       display: flex;
 
       li {
