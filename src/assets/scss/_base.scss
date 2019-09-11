@@ -52,23 +52,23 @@ p {
   opacity: 0.8;
 }
 
-button.primary {
-    background-color: var(--primary);
-    border-radius: 24px;
-    padding: 14px 25px;
-    color: var(--white);
-    font-size: 10px;
-    line-height: 12px;
-    letter-spacing: 1px;
-    border: none;
-}
-
-button.roze {
-  background-color: var(--secondary);
-  border-radius: 24px;
-  padding: 18px 44px;
-  color: var(--white);
-  font-size: 10px;
-  line-height: 12px;
+button {
   letter-spacing: 1px;
+  line-height: 12px;
+  font-size: 10px;
+  color: var(--white);
+
+  &.primary {
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 24px;
+    padding: 10px 21px;
+  }
+
+  &.roze {
+    background-color: var(--secondary);
+    border: 2px solid var(--secondary);
+    border-radius: 24px;
+    padding: 14px 40px;
+  }
 }

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ba4e8d-4125-4c4e-b765-713ae5434ec8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/call-to-action/call-to-action.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/tabs/tabs.pug" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/tabs/tabs.scss" beforeDir="false" />
     </list>

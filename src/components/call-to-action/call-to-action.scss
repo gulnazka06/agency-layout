@@ -1,0 +1,48 @@
+.call {
+  .container {
+    background-image: url("../../assets/img/bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 240px 10px;
+
+    h1 {
+      font-weight: bold;
+      font-size: 54px;
+      line-height: 60px;
+      text-align: center;
+      letter-spacing: -2px;
+      color: var(--white);
+    }
+
+    p {
+      line-height: 34px;
+      text-align: center;
+      letter-spacing: -1px;
+      color: var(--white);
+    }
+
+    .choose {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 63px;
+        letter-spacing: -2px;
+        color: var(--white);
+      }
+
+      button {
+        margin: 0 7px;
+      }
+
+      button.roze {
+        border: 2px solid var(--white);
+        background-color: transparent;
+        padding: 10px 21px;
+      }
+    }
+  }
+}
