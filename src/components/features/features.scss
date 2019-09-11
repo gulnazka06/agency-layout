@@ -1,0 +1,50 @@
+.features {
+  .container {
+    h1 {
+      line-height: 63px;
+      text-align: center;
+    }
+
+    > p {
+      text-align: center;
+    }
+
+
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+
+      &:nth-child(2n) {
+        grid-template-columns: 2fr 1fr;
+      }
+
+      .img {
+        margin-right: 52px;
+      }
+
+      .admin {
+        padding-top: 64px;
+
+        h2 {
+          display: flex;
+          align-items: center;
+
+          div {
+            border-radius: 50%;
+            background-color: var(--primary);
+            width: 18px;
+            height: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--white);
+            margin-right: 9px;
+          }
+        }
+        p {
+          margin-bottom: 24px;
+        }
+      }
+    }
+  }
+}

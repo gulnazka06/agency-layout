@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/src/assets/scss/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/tabs/tabs.pug" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/tabs/tabs.scss" beforeDir="false" />
     </list>
