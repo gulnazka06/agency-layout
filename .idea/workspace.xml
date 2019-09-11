@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ba4e8d-4125-4c4e-b765-713ae5434ec8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tabs/tabs.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/call-to-action/call-to-action.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/call-to-action/call-to-action.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contacts/contacts.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contacts/contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/features/features.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/features/features.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/get-notified/get-notified.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/get-notified/get-notified.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/our-work/our-work.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/our-work/our-work.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/testimonials/testimonials.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/testimonials/testimonials.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabs/tabs.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabs/tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +40,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Pug File" />
         <option value="SCSS File" />
+        <option value="Pug File" />
       </list>
     </option>
   </component>
@@ -98,7 +117,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
