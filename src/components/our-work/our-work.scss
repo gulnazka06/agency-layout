@@ -1,0 +1,49 @@
+.work {
+  padding: 100px 0;
+
+  h1 {
+    font-weight: bold;
+    line-height: 63px;
+    text-align: center;
+    margin: 0;
+  }
+
+  > p {
+    text-align: center;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: -1px;
+      color: var(--black);
+      border: none;
+    }
+
+    button.roze {
+      color: var(--white);
+      margin: 44px 0;
+    }
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+
+    img {
+      margin-right: 24px;
+      display: block;
+    }
+
+    button {
+      border: none;
+      padding: 0;
+    }
+  }
+}
