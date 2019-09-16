@@ -1,0 +1,66 @@
+@import "../../assets/scss/mixin";
+
+.contact {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    h1 {
+      line-height: 60px;
+      margin: 0;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 36px;
+    }
+
+    input, textarea {
+      border: 1px solid var(--input-color);
+      box-sizing: border-box;
+      border-radius: 4px;
+      color: var(--text-color);
+      font-size: 12px;
+      line-height: 15px;
+      width: 630px;
+      padding: 18px;
+      margin: 10px 0;
+    }
+
+    textarea {
+      height: 230px;
+      max-width: 630px;
+      margin-bottom: 20px;
+    }
+
+    .side {
+      @include side();
+
+      right: unset;
+      top: unset;
+      bottom: 50%;
+      left: 0;
+      transform: rotate(-90deg) translateY(-108px) translateX(-50%);
+
+      p {
+        margin-right: 30px;
+      }
+    }
+
+    .socials {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      right: 0;
+      top: 50%;
+      transform: translateY(-108px) translateX(-50%);
+
+      a {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
