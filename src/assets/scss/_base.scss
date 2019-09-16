@@ -12,6 +12,10 @@
   --input-color: #DDDDDD;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   font-family: Montserrat, -apple-system, sans-serif;
   margin: 0;

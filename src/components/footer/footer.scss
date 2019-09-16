@@ -1,3 +1,5 @@
+@import "../../assets/scss/mixin";
+
 .footer {
   background-image: url("../../assets/img/footer-bg.svg");
   background-repeat: no-repeat;
@@ -5,11 +7,18 @@
   padding: 300px 0 90px;
   background-size: cover;
 
+  @include mobile {
+    padding: 46px 16px;
+    background-position: right;
+  }
+
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
-
+    @include mobile {
+      grid-template-columns: 1fr;
+    }
 
     > img {
       transform: translateY(-9px);

@@ -33,10 +33,19 @@
       top: 0;
     }
 
+    @include mobile {
+      display: block;
+    }
+
     .content {
       background-position: center;
       margin-right: 118px;
       position: relative;
+
+      @include mobile {
+        margin-right: 0;
+        margin-bottom: 46px;
+      }
 
       &::before {
         content: url('../../assets/img/bg-blue.svg');

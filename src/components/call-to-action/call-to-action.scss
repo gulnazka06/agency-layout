@@ -1,4 +1,15 @@
+@import "../../assets/scss/mixin";
+
 .call {
+
+  @include mobile {
+    padding: 0 16px;
+  }
+
+  @include mobile {
+    padding: 0;
+  }
+
   .container {
     background-image: url("../../assets/img/bg.svg");
     background-repeat: no-repeat;
@@ -26,16 +37,30 @@
       justify-content: center;
       align-items: center;
 
+      @include mobile {
+        flex-wrap: wrap;
+        text-align: center;
+      }
+
       span {
         font-weight: bold;
         font-size: 30px;
         line-height: 63px;
         letter-spacing: -2px;
         color: var(--white);
+
+        @include mobile {
+          width: 100%;
+        }
       }
 
       button {
         margin: 0 7px;
+
+        @include mobile {
+          display: flex;
+          justify-content: center;
+        }
       }
 
       button.roze {

@@ -1,7 +1,13 @@
+@import "../../assets/scss/mixin";
+
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 59px;
+
+  @include mobile {
+    padding-top: 20px;
+  }
 
   button {
     padding: 0;
@@ -22,6 +28,10 @@ nav {
     ul {
       list-style: none;
       display: flex;
+
+      @include mobile {
+        display: none;
+      }
 
       li {
         padding: 0 20px;
