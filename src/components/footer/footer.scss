@@ -1,0 +1,48 @@
+.footer {
+  background-image: url("../../assets/img/footer-bg.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 300px 0 90px;
+  background-size: cover;
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+
+    > img {
+      transform: translateY(-9px);
+    }
+
+    p {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -1px;
+      margin: 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 36px 0;
+
+      li {
+        a {
+          font-size: 14px;
+          line-height: 36px;
+          color: var(--text-color);
+        }
+      }
+    }
+    .follow {
+      .socials {
+        display: flex;
+        justify-content: space-between;
+        margin: 36px 0;
+      }
+    }
+  }
+}
+

@@ -1,27 +1,11 @@
+@import "../../assets/scss/mixin";
 header {
   background-image: url("../../assets/img/mask.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 
   .side {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    display: flex;
-    align-items: center;
-    transform: rotate(90deg) translateY(-108px) translateX(-50%);
-
-    button.primary {
-      margin-right: 10px;
-    }
-
-    p {
-      font-size: 18px;
-      line-height: 20px;
-      letter-spacing: 2px;
-      color: var(--text-color);
-      margin: 0;
-    }
+    @include side();
   }
 
   .grid {
