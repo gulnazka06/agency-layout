@@ -1,11 +1,17 @@
 @import "../../assets/scss/mixin";
+
 header {
   background-image: url("../../assets/img/mask.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
+  padding: 0 16px;
 
   .side {
     @include side();
+
+    @include tablet-landscape {
+      display: none;
+    }
   }
 
   .grid {
@@ -47,6 +53,7 @@ header {
         border: none;
         padding: 0;
         margin-left: 7px;
+        background-color: transparent;
       }
     }
   }

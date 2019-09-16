@@ -1,4 +1,8 @@
 .features {
+  @include tablet-landscape {
+    padding: 0 16px;
+  }
+
   .container {
     h1 {
       line-height: 63px;

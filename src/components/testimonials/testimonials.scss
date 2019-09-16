@@ -1,5 +1,11 @@
+@import "../../assets/scss/mixin";
+
 .testimonials {
   padding-bottom: 275px;
+
+  @include tablet-landscape {
+    padding: 0 16px;
+  }
 
   .container {
     h1 {

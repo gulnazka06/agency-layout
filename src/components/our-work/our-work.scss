@@ -1,5 +1,11 @@
+@import "../../assets/scss/mixin";
+
 .work {
   padding: 100px 0;
+
+  @include tablet-landscape {
+    padding: 0 16px;
+  }
 
   h1 {
     font-weight: bold;
@@ -23,11 +29,13 @@
       letter-spacing: -1px;
       color: var(--black);
       border: none;
+      background-color: transparent;
     }
 
     button.roze {
       color: var(--white);
       margin: 44px 0;
+      background-color: var(--secondary);
     }
   }
 
@@ -44,6 +52,7 @@
     button {
       border: none;
       padding: 0;
+      background-color: transparent;
     }
   }
 }

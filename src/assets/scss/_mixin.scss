@@ -19,3 +19,14 @@
   }
 }
 
+@mixin tablet-landscape() {
+  @media screen and (max-width: 1023px) {
+  @content
+  }
+}
+
+@mixin  mobile() {
+  @media screen and (max-width: 767px) {
+    @content
+  }
+}
