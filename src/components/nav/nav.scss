@@ -14,9 +14,36 @@ nav {
     margin: 0 20px;
     border: none;
     background-color: transparent;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    z-index: 9;
 
-    &:last-child {
+    .nav-icon {
       margin-right: 0;
+      background-color: var(--white);
+      height: 3px;
+      width: 32px;
+      transition: .3s;
+      position: relative;
+
+      &::after, &::before {
+        content: '';
+        background-color: var(--white);
+        height: 3px;
+        width: 32px;
+        display: block;
+        position: absolute;
+        transition: .3s;
+      }
+
+      &::after {
+        bottom: -8px;
+      }
+
+      &::before {
+        top: -8px;
+      }
     }
   }
 
@@ -30,7 +57,18 @@ nav {
       display: flex;
 
       @include mobile {
-        display: none;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background-color: var(--white);
+        flex-direction: column;
+        z-index: 9;
+        top: 0;
+        left: 0;
+        margin-top: 0;
+        transition: .3s;
+        opacity: 0;
+        visibility: hidden;
       }
 
       li {
@@ -41,10 +79,38 @@ nav {
         }
 
         a {
-          font-size: 12px;
-          line-height: 15px;
-          letter-spacing: 1px;
+          font-size: 24px;
+          line-height: 136px;
+          letter-spacing: 4px;
         }
+      }
+    }
+  }
+
+  &.open {
+
+    ul {
+      opacity: 1;
+      visibility: visible;
+      background-image: $footer-bg-image;
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .nav-icon {
+      background-color: transparent;
+
+      &::before {
+        transform: rotate(-45deg);
+        background-color: var(--black);
+        top: 0;
+      }
+
+      &::after {
+        background-color: var(--black);
+        transform: rotate(45deg);
+        bottom: 0;
       }
     }
   }

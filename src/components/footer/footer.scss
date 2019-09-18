@@ -1,7 +1,7 @@
 @import "../../assets/scss/mixin";
 
 .footer {
-  background-image: url("../../assets/img/footer-bg.svg");
+  background-image: $footer-bg-image;
   background-repeat: no-repeat;
   background-position: top;
   padding: 300px 0 90px;
